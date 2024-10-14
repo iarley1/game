@@ -3,12 +3,12 @@ const muteButton = document.getElementById("playButton");
 const gameDiv = document.getElementById("game-div");
 
 muteButton.addEventListener("click", () => {
-  if (audio.muted) {
-    audio.muted = false;
-    muteButton.textContent = "Desligar som";
+  if (audio.paused) {
+    audio.play();
+    muteButton.textContent = "Desativar Áudio";
   } else {
-    audio.muted = true;
-    muteButton.textContent = "Ativar som";
+    audio.pause();
+    muteButton.textContent = "Ativar Áudio";
   }
 });
 
