@@ -1,0 +1,60 @@
+<!-- 
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catch the Falling Items</title>
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Pedra, papel e tesoura</h1>
+    <audio
+      id="meuAudio"
+      src="asserts/Puff Along - Tony Hymas.mp3"
+      autoplay
+      loop
+    >
+    <p></p>
+    </audio>
+    <button id="playButton">Desligar som</button>
+    <div id="game-div">
+      <h2>Escolha uma opção</h2>
+      <button onclick="game(this)" value="1" id="rock">Pedra</button>
+      <button onclick="game(this)" value="2" id="paper">Papel</button>
+      <button onclick="game(this)" value="3" id="scissors">Tesoura</button>
+    </div>
+  </body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedra, Papel e Tesoura</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Pedra, Papel e Tesoura</h1>
+    <div class="choices">
+      <button class="choice" id="pedra">
+        <img src="https://img.icons8.com/ios-filled/100/rock.png" alt="Pedra">
+      </button>
+      <button class="choice" id="papel">
+        <img src="https://img.icons8.com/ios-filled/100/paper.png" alt="Papel">
+      </button>
+      <button class="choice" id="tesoura">
+        <img src="https://img.icons8.com/ios-filled/100/scissors.png" alt="Tesoura">
+      </button>
+    </div>
+    <div class="result">
+      <p id="resultadoTexto">Faça sua escolha!</p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
