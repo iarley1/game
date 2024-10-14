@@ -1,4 +1,4 @@
-/* body {
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,78 +12,4 @@
 h1 {
     margin-bottom: 20px;
     color: #333;
-} */
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-  }
-  
-  body {
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .game-container {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  h1 {
-    margin-bottom: 20px;
-    font-size: 2.5rem;
-    color: #333;
-  }
-  
-  .choices {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 20px;
-  }
-  
-  .choice {
-    background-color: #fff;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    transition: transform 0.3s ease;
-  }
-  
-  .choice img {
-    width: 100px;
-    height: 100px;
-  }
-  
-  .choice:hover {
-    transform: scale(1.1);
-  }
-  
-  .result {
-    background-color: #eee;
-    border-radius: 10px;
-    padding: 10px;
-    margin-top: 20px;
-    font-size: 1.5rem;
-    color: #333;
-    transition: background-color 0.3s ease;
-  }
-  
-  .result.win {
-    background-color: #a8e6cf;
-  }
-  
-  .result.lose {
-    background-color: #ff8b94;
-  }
-  
-  .result.tie {
-    background-color: #ffd3b6;
-  }
+}
